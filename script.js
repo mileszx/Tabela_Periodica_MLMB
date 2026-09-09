@@ -161,7 +161,7 @@ links.forEach(link => {
 
 let search = document.getElementById("search");
 
-search.addEventListener("input", () => {
+search.addEventListener ("input", ()  => {
 
     let texto = search.value.toLowerCase();
 

@@ -36,12 +36,12 @@ body{
 
 #search{
     justify-self: center;
-    width: 300px;
-    padding: 10px;
+    width: 250px;
+    padding: 8px;
     margin: 20px auto;
     display: block;
     border-radius: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #7eaacd;
     text-align: center;
 }
 
@@ -156,7 +156,7 @@ body{
     display:grid;
     grid-template-columns: repeat(18, minmax(40px, 1fr));
     gap:4px;
-    padding:55px;
+    padding:50px;
     overflow-x:auto;
 }
 .table-periodic a{
@@ -380,5 +380,4 @@ span{
     font-size: 1em;
     text-align: center;
 
-    
 }
