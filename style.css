@@ -6,6 +6,7 @@ body{
     margin:0;
     padding:0;
     font-family:'Google Sans', sans-serif;
+    background-color: antiquewhite;
 }
 
 /* HEADER */
@@ -17,8 +18,9 @@ body{
     align-items:center; 
     margin:auto;
     padding:10px;
-    border-bottom: 1px solid;
+    border-bottom: 0.1rem solid;
     gap: 30px;
+
 }
 .header_container img{
     padding: 0px;
@@ -44,7 +46,7 @@ body{
 }
 
 #buttonTableP {
-    background: #85216f99;
+    background:  #528053;
     color: white;
     
     border: 1px solid #ddd;
@@ -74,13 +76,14 @@ body{
 #buttonMenu {
     border: none;
     border-radius: 7px;
-    background: #85216f99;
+    background: #528053;
     margin: 0px;
     font-size: 12px;
     cursor: pointer;
     color: white;
     padding: 1rem;
     transition: 0.3s;
+
 }
 
 #buttonMenu:hover{
@@ -153,7 +156,7 @@ body{
     display:grid;
     grid-template-columns: repeat(18, minmax(40px, 1fr));
     gap:4px;
-    padding:100px;
+    padding:55px;
     overflow-x:auto;
 }
 .table-periodic a{
@@ -376,5 +379,6 @@ span{
     align-items: center;
     font-size: 1em;
     text-align: center;
+
     
 }
